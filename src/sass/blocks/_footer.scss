@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 220px;
+  background-color: #000;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__btns {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    padding-left: 600px;
+  }
+  &__link {
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &__subtitle1 {
+    margin-top: 10px;
+  }
+}

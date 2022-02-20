@@ -1,0 +1,38 @@
+.header {
+  min-height: 1200px;
+  padding: 66px 0 31px 0;
+  background: url(../img/Background.jpg) center (center/cover) no-repeat;
+  overflow: hidden;
+  &__link {
+    width: 100px;
+  }
+  &__subwrapper {
+    padding-left: 194px;
+  }
+  &__wrapper {
+    margin-top: 196px;
+    display: flex;
+    padding-left: 200px;
+    .divider {
+    margin-top: 10px;
+    }
+  }
+  &__subtitle {
+    padding-left: 32px;
+    width: 500px;
+    height: 25px;
+  }
+}
+.nav {
+  position: absolute;
+  padding-left: 500px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 50px;
+  a {
+    padding: 7px 0;
+    display: inline-block;
+    color: #fff;
+  }
+}
